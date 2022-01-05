@@ -52,6 +52,7 @@ class MainActivity : AppCompatActivity() {
                     userInfo.append("Time played ${info.playedTime} \n\n")
                     userInfo.append("Leaderboard ${info.leaderboard} \n\n")
                     userInfo.append("Achievements ${info.achievements} \n\n")
+
                     userInfo.append("Unique ID ${info.unique} \n\n")
                 }
             })

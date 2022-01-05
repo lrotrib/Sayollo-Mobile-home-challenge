@@ -16,11 +16,9 @@ fun UserInfo.toCollectedData() {
 
 fun fromCollectedData(): UserInfo {
     return UserInfo(
-        levels = PrefsManager.extractGameLevels(),
-        points = PrefsManager.extractGamePoints(),
         playedTime = PrefsManager.extractGamePlayedTime(),
         leaderboard = PrefsManager.extractGameLeaderboard(),
-        achievements = PrefsManager.extractGameLevels()
+        achievements = PrefsManager.extractGameAchievements()
     )
 }
 
