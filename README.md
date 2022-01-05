@@ -1,2 +1,2 @@
-# Sayollo Mobile home challenge
-Sayollo Mobile TL home challenge
+# Sayollo
+Sayollo Mobile home challenge
